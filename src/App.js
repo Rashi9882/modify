@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Login from './components/Login';
 
-class App extends Component {
+export class App extends React.Component {
   render() {
     return (
       <div className="App">
-  
-       
-      </div>
+       <Login/>
+       </div>
     );
   }
 }
