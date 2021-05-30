@@ -6,13 +6,13 @@ export class Login extends React.Component {
      render() {
          return (
             <div className="App">
-            <Navbar dark color="info">
+            {/* <Navbar dark color="info">
                 <div className="container">
                     <NavbarBrand href="/">
                         HelloMusic
                     </NavbarBrand>
                 </div>
-            </Navbar>
+            </Navbar> */}
             <LoginCard/>
             </div>
          );
