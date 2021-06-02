@@ -4,18 +4,11 @@ import {Col,Container,Row,Form,Button} from 'reactstrap';
 export class LoginCard extends React.Component {
     render() {
         return(
-            <h1>Hello</h1>
             <Container>
                 <Row>
                     <Col lg={4} md={6} sm={12}>
                     <Form>
-                        <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
-                            <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
-                            </Form.Text>
-                        </Form.Group>
+                        
                         <Form.Group controlId="formBasicPassword">
                             <Form.Label>Password</Form.Label>
                             <Form.Control type="password" placeholder="Password" />
